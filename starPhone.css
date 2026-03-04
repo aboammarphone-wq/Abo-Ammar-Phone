@@ -299,4 +299,54 @@ html{
         flex-direction: column;
         text-align: center;
     }
+
+}
+
+
+
+
+/* ===== MOBILE FIX ===== */
+
+@media (max-width: 768px){
+
+    .navpar{
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .search-bar{
+        width: 100%;
+    }
+
+    .hero-content{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text h1{
+        font-size: 28px;
+    }
+
+    .hero-text p{
+        font-size: 16px;
+    }
+
+    .device-card{
+        width: 90%;
+    }
+
+    .devices{
+        padding: 40px 10px;
+    }
+
+    .main-img{
+        height: 220px;
+    }
+
+    .thumb{
+        width: 55px;
+        height: 55px;
+    }
 }
